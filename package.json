@@ -1,0 +1,33 @@
+{
+  "name": "chat-passport",
+  "version": "0.0.0",
+  "description": "chat-comment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "passport",
+    "express"
+  ],
+  "author": "Charl42",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "jsonwebtoken": "^8.0.1",
+    "md5": "^2.2.1",
+    "mysql2": "^1.4.2",
+    "open": "0.0.5",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "passport.socketio": "^3.7.0",
+    "sequelize": "^4.8.4",
+    "socket.io": "^2.0.3"
+  }
+}
